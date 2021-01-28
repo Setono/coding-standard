@@ -2,5 +2,9 @@
     "name": "setono/coding-standard",
     "type": "library",
     "description": "Coding standards copied from Sylius",
-    "license": "MIT"
+    "license": "MIT",
+    "require": {
+        "friendsofphp/php-cs-fixer": "^2.18",
+        "slevomat/coding-standard": "^6.4"
+    }
 }
