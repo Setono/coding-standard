@@ -5,6 +5,7 @@
     "license": "MIT",
     "require": {
         "friendsofphp/php-cs-fixer": "^2.18",
-        "slevomat/coding-standard": "^6.4"
+        "slevomat/coding-standard": "^6.4",
+        "symplify/easy-coding-standard": "^9.0"
     }
 }
