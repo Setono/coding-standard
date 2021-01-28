@@ -1,0 +1,6 @@
+{
+    "name": "setono/coding-standard",
+    "type": "library",
+    "description": "Coding standards copied from Sylius",
+    "license": "MIT"
+}
