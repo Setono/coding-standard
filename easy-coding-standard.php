@@ -367,8 +367,11 @@ return static function (ContainerConfigurator $containerConfigurator): void {
 
     $services->set(SingleBlankLineAtEofFixer::class);
 
+    /*
+     * todo readd this
     $services->set('SlevomatCodingStandard\Sniffs\Commenting\ForbiddenAnnotationsSniff')
         ->property('forbiddenAnnotations', [ref('api'), ref('author'), ref('category'), ref('copyright'), ref('created'), ref('license'), ref('package'), ref('since'), ref('subpackage'), ref('version')]);
+    */
 
     $services->set(InlineDocCommentDeclarationSniff::class);
 
